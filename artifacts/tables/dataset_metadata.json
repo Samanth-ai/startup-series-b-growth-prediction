@@ -1,0 +1,8 @@
+{
+  "raw_rows": 54294,
+  "eligible_rows": 8245,
+  "positive_rate": 0.36979987871437237,
+  "observation_cutoff": "2015-01-01",
+  "target_definition": "Approximate label: round_B > 0 and last_funding_at - first_funding_at <= 36 months; kept only if first_funding_at <= 2015-01-01 and (positive or at least 36 months of observation).",
+  "important_limitation": "The CSV does not include the exact date of the Series B event, so the milestone label is approximate."
+}
